@@ -1,4 +1,4 @@
-import { INCREMENT, DECREMENT, BIGINCREMENT, BIGDECREMENT, INCREMENT_ASYNC } from './actionTypes.js'
+import { INCREMENT, DECREMENT, BIGINCREMENT, BIGDECREMENT } from './actionTypes.js'
 
 // normal action creator
 // use with store.dispatch(actionCreator())
