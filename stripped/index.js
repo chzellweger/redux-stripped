@@ -23,7 +23,7 @@ let doDecrement = value => {
 // knows how to handle an action object
 // takes the current state and an action
 // returns a new state
-export function counter(state = 0, action) {
+function counter(state = 0, action) {
   switch (action.type) {
     case 'INCREMENT':
       return state + action.value
