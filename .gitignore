@@ -1,0 +1,11 @@
+project.pdf
+node_modules
+color_scheme.txt
+.eslintrc
+.vscode
+mockData.txt
+server/data/state.db
+stripped/dist
+stripped/.cache
+advanced/dist
+advanced/.cache
