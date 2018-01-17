@@ -4,7 +4,7 @@ Most basic Redux implementation in folder stripped.
 Slightly advanced stuff in folder advanced.
 
 ## Development
-The project uses [Parcel](https://parceljs.org/) as module bundler:
+No webpack setup, but you can use [Parcel](https://parceljs.org/) as module bundler:
 
 Install Parcel globally
 ```bash
