@@ -24,6 +24,12 @@ let doDecrement = value => {
 // takes the current state and an action
 // returns a new state
 function counter(state = 0, action) {
+  // special case: here, "state" is of tpye number, a type which is passed by
+  // value.
+  // In Redux, you never mutate state. So: if state was an object or an
+  // array (passed by reference), we would need to use immutable operations
+  // like spread ( [...state, newValue] or {...state, property: newValue})
+  // or Object.assign({}, state, {property: newValue})
   switch (action.type) {
     case 'INCREMENT':
       return state + action.value
@@ -38,7 +44,7 @@ function counter(state = 0, action) {
 * store
 */
 // the store is a simple object with methods
-// at creation, pass it the reducer, so it knows how 
+// at creation, pass it the reducer, so it knows how
 // to handle the actions passed later by store.dispatch()
 
 // create the store
