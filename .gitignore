@@ -9,3 +9,7 @@ stripped/dist
 stripped/.cache
 advanced/dist
 advanced/.cache
+saga/.cache
+saga/dist
+saga-stripped/.cache
+saga-stripped/.cache
